@@ -1,0 +1,13 @@
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\bin\Debug\netcoreapp3.1\Lab16CountriesIO.exe
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\bin\Debug\netcoreapp3.1\Lab16CountriesIO.deps.json
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\bin\Debug\netcoreapp3.1\Lab16CountriesIO.runtimeconfig.json
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\bin\Debug\netcoreapp3.1\Lab16CountriesIO.runtimeconfig.dev.json
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\bin\Debug\netcoreapp3.1\Lab16CountriesIO.dll
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\bin\Debug\netcoreapp3.1\Lab16CountriesIO.pdb
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.csprojAssemblyReference.cache
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.AssemblyInfoInputs.cache
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.AssemblyInfo.cs
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.csproj.CoreCompileInputs.cache
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.dll
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.pdb
+D:\GCProjects\Lab16CountriesIO\Lab16CountriesIO\obj\Debug\netcoreapp3.1\Lab16CountriesIO.genruntimeconfig.cache
