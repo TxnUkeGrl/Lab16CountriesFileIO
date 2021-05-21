@@ -36,22 +36,52 @@ namespace Lab16CountriesIO
         {
             Console.WriteLine("Hemisphere?");
             string hemisphere = Console.ReadLine();
-            Console.WriteLine("Mythical Creature?");
+            Console.WriteLine("\nMythical Creature?");
             string mythicalCreature = Console.ReadLine();
-            Console.WriteLine("Magick?");
-            bool magick = bool.Parse(Console.ReadLine());
+            Console.WriteLine("\nMagick?");
+            bool magick = true;
+            switch (Console.ReadLine().ToUpper())
+            {
+                case "Y":
+                case "YES":
+                case "T":
+                case "TRUE":
+                    magick = true;
+                    break;
+                case "N":
+                case "NO":
+                case "F":
+                case "FALSE":
+                    magick = false;
+                    break;
+            }
+            //bool magick = bool.Parse(Console.ReadLine());
             //use T & F, Y or N?
-            Console.WriteLine("Peaceful?");
-            bool peaceful = bool.Parse(Console.ReadLine());
-            //use T & F, Y or N?
+            Console.WriteLine("\nPeaceful?");
+            bool peaceful = true;
+            switch (Console.ReadLine().ToUpper())
+            {
+                case "Y":
+                case "YES":
+                case "T":
+                case "TRUE":
+                    peaceful = true;
+                    break;
+                case "N":
+                case "NO":
+                case "F":
+                case "FALSE":
+                    peaceful = false;
+                    break;
+            }
+            
             Countries newCountry = new Countries(hemisphere, mythicalCreature, magick, peaceful);
             return newCountry;
-            //add to txt file?
         }
 
         public override string ToString()
         {
-            return Hemisphere + MythicalCreature + Magick + Peaceful;
+            return Hemisphere + " " + MythicalCreature + " " + Magick + " " + Peaceful;
         }
     }
 }

@@ -27,11 +27,13 @@ namespace Lab16CountriesIO
         //METHOD - read a list of countries from a file
         public void WriteCountryList() //returns to default list
         {
+            Console.WriteLine();
             StreamWriter writer = new StreamWriter("../../../countries.txt");
             foreach (Countries country in Countries.GetCountriesList())
             {
-                writer.WriteLine($"{country.Hemisphere}|{country.MythicalCreature}|{country.Magick}|{country.Peaceful}");
+                writer.WriteLine($"{country.Hemisphere} | {country.MythicalCreature} | {country.Magick} |  {country.Peaceful}");
             }
+            Console.WriteLine();
             writer.Close();
         }
 

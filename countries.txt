@@ -1,4 +1,0 @@
-North|Pegasus|True|False
-East|Phoenix|True|True
-South|Chimera|False|True
-West|Dragon|False|False
